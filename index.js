@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-process.env.AWS_SDK_LOAD_CONFIG=1
 const _ = require('highland')
 const firehose = require('highland-kinesis-firehose')
 const split = require('split2')

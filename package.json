@@ -1,0 +1,47 @@
+{
+  "name": "pipe-to-kinesis-firehose",
+  "version": "1.0.0",
+  "description": "Pipe data into kinesis firehose for archival",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thegrommet/pipe-to-kinesis-firehose.git"
+  },
+  "keywords": [
+    "kinesis",
+    "firehose",
+    "aws",
+    "distributionstream"
+  ],
+  "author": "Aria Stewart <aria@thegrommet.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thegrommet/pipe-to-kinesis-firehose/issues"
+  },
+  "homepage": "https://github.com/thegrommet/pipe-to-kinesis-firehose#readme",
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 8
+    },
+    "rules": {
+      "valid-typeof": "error",
+      "no-unused-vars": "error",
+      "no-undef": "error"
+    },
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    }
+  },
+  "dependencies": {
+    "aws-sdk": "^2.167.0",
+    "highland": "^2.11.1",
+    "highland-kinesis-firehose": "0.0.3",
+    "split2": "^2.2.0",
+    "yargs": "^10.0.3"
+  }
+}

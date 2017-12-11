@@ -1,6 +1,6 @@
 {
   "name": "pipe-to-kinesis-firehose",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Pipe data into kinesis firehose for archival",
   "bin": "index.js",
   "scripts": {

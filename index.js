@@ -14,6 +14,7 @@ const args = require('yargs')
 	.argv
 
 _(process.stdin.pipe(split()))
+	.map(e => e + "\n")
 	.pipe(firehose(new AWS.Firehose(), args.stream))
 	.errors(err => console.error(err.ErrorCode, err.ErrorMessage))
 	.done(() => console.log("Stream ended"))

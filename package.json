@@ -38,8 +38,8 @@
     }
   },
   "dependencies": {
-    "aws-sdk": "^2.167.0",
-    "highland": "^2.11.1",
+    "aws-sdk": "^2.405.0",
+    "highland": "^2.13.1",
     "highland-kinesis-firehose": "0.0.3",
     "split2": "^2.2.0",
     "yargs": "^10.0.3"
